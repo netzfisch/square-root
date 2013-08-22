@@ -1,13 +1,11 @@
 #!/usr/bin/ruby
 # 
 # Simple implementation of the Babylonian-/ Heron-Method to compute the square root.
-#
 # Further method explanations at:
 # http://en.wikipedia.org/wiki/Methods_of_computing_square_roots#Babylonian_method
 #
 # Usage:
 # ------
-#
 # $ ruby sqrt.rb 9 
 #
 # Babylonian-/ HERON Method                                                                                                                                                                                                                           
@@ -18,7 +16,11 @@
 # x = 5; y = 1                                                                                                                                                                                                                           
 # x = 3; y = 3                                                                                                                                                                                                                           
 #                                                                                                                                                                                                                                       
-# Elapsed time: 0.414677 !     
+# Elapsed time: 0.414677 !
+#
+# License
+# -------
+# The MIT License (MIT), see LICENSE file.
 
 AREA = ARGV[0].to_i
 
